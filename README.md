@@ -1,9 +1,12 @@
 # drupal.vim
 
-A simple vim plugin to set intelligent Drupal defaults. 
+A simplish vim plugin to set insane Drupal defaults. 
 
 ## Installation
-If you don't have a preferred installation method, I recommend installing [pathogen.vim](https://github.com/tpope/vim-pathogen), and then simply copy and paste:
 
+    cd ~
+    drush dl vimrc
+    drush -v vimrc-install
     cd ~/.vim/bundle
-    git clone git://github.com/zivtech/vim-drupal.git
+    git clone git://github.com/acouch/vim-drupal.git
+    thank monsieur tizzo
