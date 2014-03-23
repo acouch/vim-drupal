@@ -1,4 +1,4 @@
-Allow Vim-only settings even if they break vi keybindings.
+" Allow Vim-only settings even if they break vi keybindings.
 set nocompatible
 
 " Always edit in utf-8:
