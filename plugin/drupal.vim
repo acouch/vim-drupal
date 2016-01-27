@@ -56,7 +56,7 @@ autocmd VimEnter * NERDTree
 " Move focus to file itself.
 autocmd VimEnter * wincmd p
 " Close if the last buffer.
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 nnoremap <silent> <C-Right> <c-w>l
 nnoremap <silent> <C-Left> <c-w>h
